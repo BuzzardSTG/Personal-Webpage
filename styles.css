@@ -42,7 +42,7 @@ nav ul li a:hover{
 }
 
 .Details h1{
-    font-size: 50px;
+    font-size: 40px;
     color: #212121;
     margin-bottom: 20px;
 }
@@ -65,4 +65,41 @@ span {
     display: inline-block;
     margin: 30px 0;
     border-radius: 10px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+     
+}
+
+.images img{
+height: 100%;
+position: absolute;
+left: 50%; 
+bottom: 0;
+transform: translateX(-50%);
+transition: bottom 1s, left 1s;
+}
+
+.standing {
+   width: 45%;
+   height: 80%;
+    object-fit: cover;
+    object-position: 5% 20%;
+}
+.shape {
+    width: 90%;
+    height: 90%;
+}
+
+.images:hover .shape{
+bottom: 40px;
+}
+
+.images:hover .standing{
+    left: 45%;
 }
