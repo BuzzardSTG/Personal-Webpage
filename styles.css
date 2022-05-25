@@ -103,3 +103,12 @@ bottom: 40px;
 .images:hover .standing{
     left: 45%;
 }
+.google {
+    position: absolute;
+    left: 25%;
+}
+
+.amazon{
+    position: absolute;
+    left: 25%;
+}
